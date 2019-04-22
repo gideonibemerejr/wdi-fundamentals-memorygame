@@ -38,6 +38,18 @@ footer {
 .message {
     float: right;
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.name {
+    color: #F25B31;
+    border-bottom: 2px solid transparent;
+}
 h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -64,6 +76,9 @@ a {
     color: #fff;
     margin-left: 20px;
     margin-right: 20px;
+}
+a:hover {
+    border-bottom: 2px solid white;
 }
 h2 {
     font-size: 20px;
